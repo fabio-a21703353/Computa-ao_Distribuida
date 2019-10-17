@@ -1,0 +1,11 @@
+No ficheiro pom.xml do SocketServer foi necessário alterar o porto para 8000(linha 42)
+Se corrermos o SocketClient antes do SocketServer estar a ouvir o porto 8000 teremos um Warning "java.lang.reflect.InvocationTargetException" na linha 32 pois o SocketServer não está a correr
+
+Os exercicios propostos foram feitos
+Apos por o SocketServer e SocketClient a correr a imagem "walkietalkies.jpg" é enviada do cliente para o servidor
+No servidor a imagem terá o nome "recv-walkietalkies.jpg"
+
+
+Como Correr
+1 - Fazer "mvn compile" no terminal do SocketServer e depois "mvn exec:java"
+2 - Fazer "mvn compile" no terminal do SocketClient e depois "mvn exec:java"
